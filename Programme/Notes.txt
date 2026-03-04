@@ -1,0 +1,2 @@
+Pour compiler le programme: MPLAB XC8
+Pour flasher le programme: Utiliser un programmateur compatible avec le microcontroleur
