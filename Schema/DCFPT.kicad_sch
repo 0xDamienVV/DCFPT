@@ -1,0 +1,254 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bfaf5f11-de06-4b0f-bd0d-23afd96c739c")
+	(paper "A4")
+	(title_block
+		(title "DCFPT")
+		(date "2026-03-06")
+		(rev "V3.1")
+		(company "CFPT")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7ce538-c5ee-41fb-ac09-c3cf3dc3d53a")
+	)
+	(wire
+		(pts
+			(xy 72.39 100.33) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366abdaa-6880-4aef-a857-281168b98af6")
+	)
+	(wire
+		(pts
+			(xy 72.39 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685651a8-a31a-45bd-b262-f025f34d6d30")
+	)
+	(wire
+		(pts
+			(xy 72.39 107.95) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6861c7b3-1885-4f19-9f3a-891543e48e13")
+	)
+	(wire
+		(pts
+			(xy 72.39 102.87) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25db03b-ffcb-42bd-bce8-c7a878ef1074")
+	)
+	(sheet
+		(at 133.35 97.79)
+		(size 41.91 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e1fb546-219e-43b0-93b7-5c1c00b49c70")
+		(property "Sheetname" "Plaque Arriere"
+			(at 133.35 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PlaqueArriere.kicad_sch"
+			(at 133.35 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" output
+			(at 133.35 114.3 180)
+			(uuid "ba2e4de1-2075-445e-913b-63802207f7b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP0" output
+			(at 133.35 107.95 180)
+			(uuid "661c88b4-52e9-4be6-ba9d-8d2a818fed6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP1" output
+			(at 133.35 105.41 180)
+			(uuid "7fe4ab3b-10fe-421d-94c7-c22858a936df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP2" output
+			(at 133.35 102.87 180)
+			(uuid "a82596e4-9e2e-43c7-9b0b-615e27a2a926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP4" output
+			(at 133.35 100.33 180)
+			(uuid "c560538f-cbba-46cf-9128-0c90a997dc5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCFPT"
+				(path "/bfaf5f11-de06-4b0f-bd0d-23afd96c739c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 97.79)
+		(size 34.29 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bbec1ac0-e761-4099-b6f6-05c9b1fefac1")
+		(property "Sheetname" "Plaque Avant"
+			(at 38.1 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PlaqueAvant.kicad_sch"
+			(at 38.1 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 72.39 114.3 0)
+			(uuid "e94431b2-514e-4ded-adbe-a22d819d6534")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GP0" input
+			(at 72.39 107.95 0)
+			(uuid "623fa5ce-d6dd-47c3-abe5-8816ace6518f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GP1" input
+			(at 72.39 105.41 0)
+			(uuid "c49d7504-d63b-4deb-bb8b-d9d7d30a6479")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GP2" input
+			(at 72.39 102.87 0)
+			(uuid "364017fe-199a-4e13-b03f-40ccf64a5467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GP4" input
+			(at 72.39 100.33 0)
+			(uuid "f7d7e55f-e4df-4bcf-b7f2-d6684cf2890c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DCFPT"
+				(path "/bfaf5f11-de06-4b0f-bd0d-23afd96c739c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
