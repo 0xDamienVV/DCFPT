@@ -1,0 +1,5 @@
+Pour compiler le programme: MPLAB XC8
+Pour flasher le programme: Utilisez un programmateur compatible avec le microcontroleur
+
+main_v1.c est stable mais n'utilise pas le mode veille et consomme donc beaucoup d'energie
+main_v2.c est lui en développement mais utilise le mode veille
