@@ -1,13 +1,13 @@
-#pragma config OSC = IntRC     // Oscillator Selection bits (internal RC oscillator)
-#pragma config WDT = OFF       // Watchdog Timer Enable bit (WDT disabled)
-#pragma config CP = ON         // Code Protection bit (Code protection off)
-#pragma config MCLRE = OFF     // GP3/MCLR Pin Function Select bit (GP3/MCLR pin function is digital input, MCLR internally tied to VDD)
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <xc.h>
 
-#define _XTAL_FREQ 4000000
+#pragma config OSC = IntRC   // Oscillateur interne
+#pragma config WDT = OFF     // Watchdog éteint
+#pragma config CP = ON       // Protection de code activée
+#pragma config MCLRE = OFF   // GP3 est une entrée digitale
+
+#define _XTAL_FREQ 4000000   //4MHz
 
 //GPI0 = Paire LEDs Centrales
 //GPI1 = LED Centrale
